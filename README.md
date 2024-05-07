@@ -39,6 +39,7 @@ Step 7: Plot the Input space and Hidden space of RBF NN for XOR classification.
 DEVELOPED BY : S.ANUSHARON
 REG.NO: 212222240010
 ```
+```
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -109,7 +110,7 @@ print(f"Input:{np.array([0, 0])}, Predicted: {predict_matrix(np.array([0, 0]), w
 print(f"Input:{np.array([0, 1])}, Predicted: {predict_matrix(np.array([0, 1]), w)}")
 print(f"Input:{np.array([1, 0])}, Predicted: {predict_matrix(np.array([1, 0]), w)}")
 print(f"Input:{np.array([1, 1])}, Predicted: {predict_matrix(np.array([1, 1]), w)}")
-
+```
 <H3>OUTPUT:</H3>
 ![Screenshot 2024-05-07 155627](https://github.com/Anusharonselva/Ex-5--NN/assets/119405600/fbe6f952-678a-4552-931c-20decfbeba95)
 

@@ -1,12 +1,12 @@
-H3>ENTER YOUR NAME</H3>
-<H3>ENTER YOUR REGISTER NO.</H3>
-<H3>EX. NO.5</H3>
-<H3>DATE:</H3>
+# ENTER YOUR NAME: S.ANUSHARON
+# ENTER YOUR REGISTER NO.:212222240010
+# EX. NO:
+# DATE:
 <H1 ALIGN =CENTER>Implementation of XOR  using RBF</H1>
-<H3>Aim:</H3>
+# Aim:
 To implement a XOR gate classification using Radial Basis Function  Neural Network.
 
-<H3>Theory:</H3>
+# Theory:
 <P>Exclusive or is a logical operation that outputs true when the inputs differ.For the XOR gate, the TRUTH table will be as follows XOR truth table </P>
 
 <P>XOR is a classification problem, as it renders binary distinct outputs. If we plot the INPUTS vs OUTPUTS for the XOR gate, as shown in figure below </P>
@@ -22,8 +22,7 @@ A Neural network with input layer, one hidden layer with Radial Basis function a
 
 
 
-
-<H3>ALGORITHM:</H3>
+# ALGORITHM:
 Step 1: Initialize the input  vector for you bit binary data<Br>
 Step 2: Initialize the centers for two hidden neurons in hidden layer<Br>
 Step 3: Define the non- linear function for the hidden neurons using Gaussian RBF<br>
@@ -111,11 +110,12 @@ print(f"Input:{np.array([0, 1])}, Predicted: {predict_matrix(np.array([0, 1]), w
 print(f"Input:{np.array([1, 0])}, Predicted: {predict_matrix(np.array([1, 0]), w)}")
 print(f"Input:{np.array([1, 1])}, Predicted: {predict_matrix(np.array([1, 1]), w)}")
 ```
-<H3>OUTPUT:</H3>
+# OUTPUT:
+
 ![Screenshot 2024-05-07 155627](https://github.com/Anusharonselva/Ex-5--NN/assets/119405600/fbe6f952-678a-4552-931c-20decfbeba95)
 
 
-<H3>Result:</H3>
+# Result:
 Thus , a Radial Basis Function Neural Network is implemented to classify XOR data.
 
 
